@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "":"./src"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "php-di/php-di": "^6.0",
+        "nikic/fast-route": "~0.5.0",
+        "doctrine/orm": "^2.15",
+        "doctrine/cache": "^2.2",
+        "doctrine/annotations": "^2.0",
+        "symfony/cache": "^6.2",
+        "eftec/bladeone": "^4.9"
+    }
+}
